@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 250, 250);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.two {
+    height: 142px;
+    width: 1920px;
+    background-color: rgb(230, 240, 215);
+ }
+ 
+ 
+
+.h1 {
+    margin: 50px;
+    text-align: center;
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 700;
+    color:  rgb(105, 11, 11);
+    font-size: 40px;
+    }
+
+
+
+
+#navbar {
+        display: flex;
+        font-family: "brandon-grotesque",sans-serif;
+        font-weight: 100;
+        color:  rgb(105, 11, 11);
+        font-size: 30px;
+        height: 20spx;
+        padding: 10px;
+        border:rgb(255, 248, 248);
+        margin: 60px;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+    
+
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button1 {background-color:  rgb(105, 11, 11);} 
+.gallery {
+    user-select: none;
+}
+
+#gallery__imageset {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+
+.gallery__overlay {
+    background: #000;
+    opacity: 0;
+    transition: opacity 333ms;
+}
+
+
+.gallery__tray {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    transition: opacity 333ms cubic-bezier(.4,0,.22,1);
+    z-index: 10000;
+}
+
+.no-touch .gallery__inner {
+    height: calc(100vh - 120px);
+}
+
+
+.gallery__tray ul {
+    height: 120px;
+}
+
+.gallery ul {
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    list-style: none;
+}
+
+
+
+.no-touch .gallery__tray__arrow {
+    display: block;
+}
+.gallery__tray__arrow--left {
+    left: 0;
+}
+.gallery__tray__arrow {
+    position: absolute;
+    display: none;
+    top: 35px;
+    width: 30px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.gallery__tray__arrow--right {
+    right: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.column {
+    width: 19%;
+    padding: 1px;
+  }
+
+.seven {
+    height: 142px;
+    width: 1920px;
+    background-color: rgb(230, 240, 215);
+}
+
+.six {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 148px;
+}
+
